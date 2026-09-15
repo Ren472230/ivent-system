@@ -16,9 +16,11 @@
     "src/items.ts",
     "src/games.ts",
     "src/auction.ts",
+    "src/game-library.ts",
     "src/storage.ts",
     "src/statistics.ts",
     "src/app.ts",
+    "src/game-library-ui.ts",
     "src/main.ts"
   ]
 }
