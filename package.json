@@ -1,0 +1,23 @@
+{
+  "name": "ivent-system",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "compile": "tsc -p tsconfig.json",
+    "build": "node scripts/build.mjs",
+    "test": "node --test --test-concurrency=1 tests/*.test.mjs",
+    "test:domain": "node --test --test-concurrency=1 tests/domain.test.mjs",
+    "test:core": "node --test --test-concurrency=1 tests/core.test.mjs",
+    "test:items": "node --test --test-concurrency=1 tests/items.test.mjs",
+    "test:games": "node --test --test-concurrency=1 tests/games.test.mjs",
+    "test:auction": "node --test --test-concurrency=1 tests/auction.test.mjs",
+    "test:storage": "node --test --test-concurrency=1 tests/storage.test.mjs",
+    "test:statistics": "node --test --test-concurrency=1 tests/statistics.test.mjs",
+    "test:smoke": "node --test --test-concurrency=1 tests/smoke.test.mjs",
+    "verify:release": "node scripts/verify-release.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

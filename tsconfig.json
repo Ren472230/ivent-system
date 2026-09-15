@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "none",
+    "lib": ["ES2020", "DOM"],
+    "strict": true,
+    "skipLibCheck": true,
+    "outFile": "build/ivent.js",
+    "removeComments": false,
+    "noEmitOnError": true
+  },
+  "files": [
+    "src/domain.ts",
+    "src/random.ts",
+    "src/core.ts",
+    "src/items.ts",
+    "src/games.ts",
+    "src/auction.ts",
+    "src/storage.ts",
+    "src/statistics.ts",
+    "src/app.ts",
+    "src/main.ts"
+  ]
+}
